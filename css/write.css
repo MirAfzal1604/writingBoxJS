@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center_textarea {
+    background-color: blueviolet;
+    width: 100%;
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_area {
+    resize: none;
+    width: 400px;
+    height: 320px;
+    background-color: #000;
+    color: pink;
+    outline: none;
+    border: none;
+    margin: 0 0 15px 0;
+    padding: 30px;
+    font-size: 20px;
+    caret-color: red;
+    border-radius: 20px;
+
+}
